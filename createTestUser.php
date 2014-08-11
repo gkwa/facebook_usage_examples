@@ -49,7 +49,7 @@ try {
   $params = array(
 		  'access_token' => $APP_ACCESS_TOKEN,
 		  'installed' => 'true',
-		  'permissions' => 'read_stream'
+		  'permissions' => 'read_page_mailboxes,manage_pages,read_mailbox,read_insights,read_friendlists,read_stream,publish_actions,user_photos,user_status'
 		  );
 
   /* make the API call */
