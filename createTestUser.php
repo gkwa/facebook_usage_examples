@@ -62,6 +62,9 @@ try {
 
   $response = $request->execute();
   $graphObject = $response->getGraphObject();
+  $user = $graphObject->asArray();
+  print_r($user);
+
   /* handle the result */
 
 } catch (FacebookRequestException $e)
